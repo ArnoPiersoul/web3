@@ -81,5 +81,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+### Custom ###
+Servers/
 
 # End of https://www.gitignore.io/api/windows,eclipse
