@@ -17,7 +17,8 @@ public class SeleniumWorksWellTest {
 		@Before
 		public void setUp() throws Exception {
 			// pas aan indien nodig
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Arno\\OneDrive\\School\\Web 3\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Arno\\Documents\\School\\Web 3\\Benodigdheden\\Chromedriver\\Chromedriver.exe");
+			//                                             C:\\Users\\Arno\\Documents\\School\\Web 3\\Benodigdheden\\Chromedriver\\chromedriver.exe
 			// windows: gebruik dubbele \\ om pad aan te geven
 			// hint: zoek een werkende test op van web 2 ...
 			driver = new ChromeDriver();
